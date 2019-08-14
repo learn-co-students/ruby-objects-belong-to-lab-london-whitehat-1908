@@ -1,4 +1,5 @@
 require "spec_helper"
+require_relative "../lib/author.rb"
 
 describe "Post" do
   let!(:post) { Post.new } 
